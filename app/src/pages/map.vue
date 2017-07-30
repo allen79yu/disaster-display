@@ -1,5 +1,6 @@
 <template>
     <div id="map-view">
+        <div>請選擇災害類型</div>
         <v-select :options="category" v-model="selection"></v-select>
         <div id="map"></div>
     </div>

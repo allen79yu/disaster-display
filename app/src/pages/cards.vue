@@ -1,5 +1,6 @@
 <template>
     <div id="card-page">
+        <div>請選擇行政區</div>
         <v-select multiple :options="districts" v-model="selection">
         </v-select>
         <div class="event-list">
