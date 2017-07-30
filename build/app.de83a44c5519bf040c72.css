@@ -1,0 +1,50 @@
+* {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.menu {
+  margin: 24px; }
+  .menu a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #515769;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; }
+    .menu a.router-link-active {
+      border: 2px #919693 inset; }
+
+.event-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+  .event-list .event-card {
+    width: 350px;
+    min-height: 180px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px #f2f2f2 solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #f2f2f2; }
+    .event-list .event-card .title {
+      font-size: 24px; }
+    .event-list .event-card .district {
+      color: #fff;
+      width: 60px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      background: #626275;
+      border-radius: 3px; }
+    .event-list .event-card .date {
+      color: #616161; }
+
+#map-view #map {
+  margin-top: 20px;
+  width: 100%;
+  height: 600px; }
+
+/*# sourceMappingURL=app.de83a44c5519bf040c72.css.map*/
